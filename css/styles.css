@@ -21,7 +21,7 @@ header {
 .menu {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--NAVY_BLUE);
 }
@@ -30,36 +30,29 @@ header {
 }
 
 .link {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5em;
-    letter-spacing: 0.02em;
     text-decoration: none;
 }
 .link-address {
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.5em;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATE);
     text-decoration: none;
 }
-
 .logo {
     text-transform: uppercase;    
     color: var(--IRIS);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17em;
+    line-height: 1.17;
     letter-spacing: 0.03em;
 }
-
 .link:hover,
 .link:focus {
     color: var(--OCEAN);
 }
-
 .logo-text-top {
     color: var(--NAVY_BLUE);
 }
@@ -82,8 +75,16 @@ header {
     letter-spacing: 0.02em;
     color: var(--NAVY_BLUE);
 }
+.features-item {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 .feature-prg {
     line-height: 1.5;
+    font-weight: 400;
+    font-size: 16px;
     letter-spacing: 0.02em;
     color: var(--SLATE);
 }
@@ -99,7 +100,7 @@ header {
     color: var(--WHITE);
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07em;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
 }
@@ -108,6 +109,8 @@ header {
 }
 .employees-item {
     background-color: var(--WHITE);
+    width: 264px;
+    height: 380px;
 }
 .button {
     font-family: inherit;
@@ -126,12 +129,10 @@ header {
 .button:hover,
 .button:focus {
     background-color: var(--OCEAN);
-    outline: none;
-}
+    }
 .bottom {
     background-color: var(--NAVY_BLUE);
-    padding: 100px 156px;
-}
+  }
 /* portfolio */
 .filter-btn:hover,
 .filter-btn:focus {
@@ -159,6 +160,7 @@ header {
 }
 
 .prg-card {
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
